@@ -34,6 +34,12 @@ __webpack_require__ @ src_worker_js.js:56
 (anonymous) @ src_worker_js.js:1033
 worker.js:6 worker received message: MessageEvent {isTrusted: true, data: 'hello from main page', origin: '', lastEventId: '', source: null, …}
 index.js:10 worker sent message MessageEvent {isTrusted: true, data: 'hello from worker', origin: '', lastEventId: '', source: null, …}
+index.js:577 [webpack-dev-server] Server started: Hot Module Replacement enabled, Live Reloading enabled, Progress disabled, Overlay enabled.
+log.js:39 [HMR] Waiting for update signal from WDS...
+worker.js:10 running dependency in worker...
+index.worker.js:6 dependency: ƒ DedicatedWorkerGlobalScope() { [native code] } true
+worker.js:6 worker received message: MessageEvent {isTrusted: true, data: 'hello from main page to worker 2', origin: '', lastEventId: '', source: null, …}
+index.js:22 worker 2 sent message MessageEvent {isTrusted: true, data: 'hello from worker', origin: '', lastEventId: '', source: null, …}
 ```
 
 ![Screenshot of Chrome DevTools Console with above log output](./log.png)
