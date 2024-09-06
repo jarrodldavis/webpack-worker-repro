@@ -19,6 +19,6 @@
     "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
-    "dependency": "link:dependency"
+    "dependency": "file:dependency"
   }
 }
